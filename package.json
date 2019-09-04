@@ -1,0 +1,23 @@
+{
+  "name": "kata-practice-using-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrackersCookie/kata-practice-using-jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrackersCookie/kata-practice-using-jest/issues"
+  },
+  "homepage": "https://github.com/CrackersCookie/kata-practice-using-jest#readme",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
