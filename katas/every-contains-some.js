@@ -7,13 +7,18 @@ const every = (list, predicate) => {
   return true
 }
 
-const contains = () => {
-
+const contains = (list, value) => {
+  if (!list.length) return false;
+  else if (list.indexOf(value) >= 0) return true;
 }
 
-const some = () => {
-
-}
+const some = (list, predicate) => {
+  if (!list.length) return false;
+  for (let i = 0; i < list.length; i++) {
+    if (predicate(list[i])) return true;
+  }
+  return false;
+};
 
 module.exports = {
   every,
